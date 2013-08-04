@@ -1,0 +1,16 @@
+h1. Scala BOM
+
+p. Bill of material for all Scala-based projects. Use it as follows:
+
+bc.  <dependencies>
+    <dependency>
+      <groupId>com.github.sebhoss</groupId>
+      <artifactId>scala-bom</artifactId>
+      <version>1.0.0-SNAPSHOT</version>
+      <type>pom</type>
+      <scope>import</scope>
+    </dependency>
+  </dependencies>
+
+
+"!https://secure.travis-ci.org/sebhoss/scala-bom.png!":http://travis-ci.org/sebhoss/scala-bom
