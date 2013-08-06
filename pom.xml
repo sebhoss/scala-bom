@@ -9,4 +9,17 @@
   <packaging>pom</packaging>
   <name>Scala BOM</name>
   <description>Bill of material for all Scala-based projects</description>
+  
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <!--                               DEPENDENCIES                              -->
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.scala-lang</groupId>
+        <artifactId>scala-library</artifactId>
+        <version>2.10.2</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 </project>
