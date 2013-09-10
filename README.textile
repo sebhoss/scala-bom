@@ -1,4 +1,4 @@
-h1. Scala BOM
+h1. Scala BOM "!https://secure.travis-ci.org/sebhoss/scala-bom.png!":http://travis-ci.org/sebhoss/scala-bom
 
 p. Bill of material for all Scala-based projects. Use it as follows:
 
@@ -12,5 +12,3 @@ bc.  <dependencies>
     </dependency>
   </dependencies>
 
-
-"!https://secure.travis-ci.org/sebhoss/scala-bom.png!":http://travis-ci.org/sebhoss/scala-bom
